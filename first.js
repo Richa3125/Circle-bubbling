@@ -4,7 +4,7 @@ document.body.addEventListener('click', function (e) {
     
     const x = e.clientX;
     const y = e.clientY;
-    circle.style.left = `${x - 25}px`;  
+    circle.style.left = `${x - 25}px`;  //minus 25 is done to make the click center of the circle otherwise where we will click there will be corner 
     circle.style.top = `${y - 25}px`;   
   
    
